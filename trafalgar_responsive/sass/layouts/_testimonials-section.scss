@@ -1,0 +1,121 @@
+.testimonials-section {
+    margin-bottom: 200px;
+    .testimonials {
+      width: 70%;
+      color: white;
+      margin: auto;
+      margin-bottom: 40px;
+      padding-top: 50px;
+  
+      padding-bottom: 60px;
+      background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+      border-radius: 24px;
+      h3 {
+        @include sections-main-text();
+        line-height: 48px;
+      }
+      .divider {
+        background-color: white;
+        width: 4%;
+        margin-bottom: 50px;
+      }
+      &-feedback {
+        justify-content: space-around;
+        &-personal-info {
+          position: relative;
+          width: 40%;
+          div {
+            position: absolute;
+            top: 3.5rem;
+            left: 10rem;
+            h5 {
+              @include sections-main-text();
+              font-size: 22px;
+              line-height: 30px;
+            }
+            p {
+              @include sections-paragraph-text();
+              color: white;
+              opacity: 0.7;
+              float: left;
+            }
+          }
+          img {
+            float: left;
+          }
+        }
+        &-customer-saying {
+          width: 30%;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 30px;
+          text-align: left;
+          padding-top: 15px;
+        }
+      }
+      .background-element-on {
+        right: -20px;
+        top: 10px;
+      }
+    }
+  }.testimonials-section {
+    margin-bottom: 200px;
+    .testimonials {
+      width: 70%;
+      color: white;
+      margin: auto;
+      margin-bottom: 40px;
+      padding-top: 50px;
+  
+      padding-bottom: 60px;
+      background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+      border-radius: 24px;
+      h3 {
+        @include sections-main-text();
+        line-height: 48px;
+      }
+      .divider {
+        background-color: white;
+        width: 4%;
+        margin-bottom: 50px;
+      }
+      &-feedback {
+        justify-content: space-around;
+        &-personal-info {
+          position: relative;
+          width: 40%;
+          div {
+            position: absolute;
+            top: 3.5rem;
+            left: 10rem;
+            h5 {
+              @include sections-main-text();
+              font-size: 22px;
+              line-height: 30px;
+            }
+            p {
+              @include sections-paragraph-text();
+              color: white;
+              opacity: 0.7;
+              float: left;
+            }
+          }
+          img {
+            float: left;
+          }
+        }
+        &-customer-saying {
+          width: 30%;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 30px;
+          text-align: left;
+          padding-top: 15px;
+        }
+      }
+      .background-element-on {
+        right: -20px;
+        top: 10px;
+      }
+    }
+  }

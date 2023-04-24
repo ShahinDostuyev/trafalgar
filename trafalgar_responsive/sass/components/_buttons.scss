@@ -1,0 +1,6 @@
+.button-blue {
+    @include button(#458ff6, white);
+  }
+  .button-white {
+    @include button(white, #458ff6);
+  }

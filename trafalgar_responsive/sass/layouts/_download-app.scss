@@ -1,0 +1,32 @@
+.download-app {
+    width: 80%;
+    padding-left: 10%;
+    margin: auto;
+    margin-bottom: 250px;
+    justify-content: space-between;
+    &-image {
+      width: 40%;
+    }
+    &-text {
+      width: 40%;
+      h2 {
+        @include header-main-text();
+        margin-bottom: 48px;
+        margin-bottom: 25px;
+      }
+      p {
+        @include header-paragrapgh-text();
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 45px;
+        width: 90%;
+      }
+    }
+    .button-white {
+      position: relative;
+    }
+    .download-icon {
+      position: absolute;
+      right: 25%;
+    }
+  }

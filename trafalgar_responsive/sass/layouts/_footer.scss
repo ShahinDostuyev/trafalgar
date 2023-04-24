@@ -1,0 +1,52 @@
+footer {
+    justify-content: space-between;
+    padding: 5% 15%;
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    overflow: hidden;
+    .about-trafalgar {
+      width: 40%;
+      &-header {
+        align-items: center;
+        h4 {
+          color: white;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          margin-left: 10px;
+        }
+      }
+      p {
+        color: white;
+        margin-top: 30px;
+        width: 90%;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .information-for-customers {
+      width: 50%;
+      justify-content: space-between;
+      margin-bottom: q00px;
+      h3 {
+        font-family: Muli;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+      }
+      p {
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+      }
+    }
+  
+    .background-element-on {
+      bottom: -3px;
+      left: -3px;
+    }
+  }
